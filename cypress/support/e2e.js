@@ -14,7 +14,15 @@
 // ***********************************************************
 
 // Import commands.js using ES2015 syntax:
+import 'cypress-fill-command'
 import './commands'
+import './sign-up/actions.spec'
 
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
+beforeEach( () => {
+    Cypress.on('uncaught:exception', ()=>{
+        return false
+    })
+    cy.visit('/')
+})
