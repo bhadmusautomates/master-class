@@ -1,0 +1,9 @@
+{
+  "SignUpButton": "[class=\"sc-imWYAI dLIPIJ\"]",
+  "LoginButton": "[class='sc-imWYAI hgdAmX']",
+  "ProductLink": "[href='/#features']",
+  "fullNameField": "#fullname",
+  "fullName": "Master Class",
+  "businessNameField": "#businessname",
+  "businessName": "Master Inc"
+}
